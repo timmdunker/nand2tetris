@@ -1,0 +1,29 @@
+/**
+ * Det finns två sorters te att välja på: Earl Grey och English Breakfast.
+ * Det serveras te två gånger dagligen: en gång på morgonen och en gång på eftermiddagen.
+ * Ibland serveras det kakor till teet.
+ *
+ * Ada dricker English Breakfast på morgonen, annars Earl Grey.
+ * Charles och George dricker alltid Earl Grey.
+ * Charles vill ha mjölk när han dricker Earl Grey.
+ * George vill ha mjölk här det serveras kakor.
+ *
+ * Hjälp dem att konstruera sin logiska krets i HDL. Kretsen ska ha tre inputs (d, t och bi) och två outputs (bl och m):
+ *
+ * d står för drinker och berättar för oss vilken av vännerna som avses.
+ * t står för time of day och är 0 på morgonen och 1 på eftermiddagen.
+ * bi står för biscuit. Om kaka serveras har denna värdet 1, annars 0.
+ *
+ * bl står för blend och ska vara 0 om Earl Grey ska serveras, annars 1.
+ * m står för milk och ska vara 1 om mjölk ska serveras, annars 0.
+ *
+ */
+
+CHIP Tea {
+    IN d, t, bl;
+    OUT bl, m;
+    
+    PARTS:
+    
+    
+    }
